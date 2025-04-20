@@ -1,0 +1,46 @@
+[gd_scene load_steps=2 format=3 uid="uid://dy1kdlryic2uw"]
+
+[ext_resource type="FontFile" uid="uid://s15272omc2m3" path="res://assets/fonts/retro.ttf" id="1_kgovw"]
+
+[node name="HUD" type="CanvasGroup"]
+
+[node name="ScoreLabel" type="Label" parent="."]
+texture_filter = 1
+offset_left = 32.0
+offset_top = 32.0
+offset_right = 199.0
+offset_bottom = 83.0
+theme_override_fonts/font = ExtResource("1_kgovw")
+theme_override_font_sizes/font_size = 40
+text = "SCORE:"
+
+[node name="HighScoreLabel" type="Label" parent="."]
+texture_filter = 1
+offset_left = 816.0
+offset_top = 32.0
+offset_right = 1118.0
+offset_bottom = 83.0
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("1_kgovw")
+theme_override_font_sizes/font_size = 40
+text = "HIGH SCORE:"
+
+[node name="StartLabel" type="Label" parent="."]
+texture_filter = 1
+offset_left = 312.0
+offset_top = 296.0
+offset_right = 847.0
+offset_bottom = 347.0
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("1_kgovw")
+theme_override_font_sizes/font_size = 40
+text = "PRESS SPACE TO PLAY"
+
+[node name="HighScorePoints" type="Label" parent="."]
+texture_filter = 1
+offset_left = 816.0
+offset_top = 80.0
+offset_right = 1120.0
+offset_bottom = 144.0
+theme_override_fonts/font = ExtResource("1_kgovw")
+theme_override_font_sizes/font_size = 40
